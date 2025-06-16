@@ -1,0 +1,222 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  line-height: 1.5;
+  font-family: 'Poppins', sans-serif;
+  background-image: url('../images/regis_back.jpg') ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+
+/* --------------------------Registration-------------- */
+#login{
+  padding: 40px;
+}
+#login h1{
+  text-align: center;
+  font-size: 3em;
+  color: white;
+  margin-bottom: 100px;
+}
+.login-body{
+  border: white 2px solid;
+  border-radius: 20px;    
+  width: 470px;
+  height: fit-content;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.login-icon{
+  width: 200px;
+  position: relative;
+  top: -100px;
+  background-color: white;
+  border-radius: 50%;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+form input{ 
+  color: black;
+  font-size: large;
+  font-weight: bold;
+  width: 80%;
+  margin: 10px;
+  background-color: inherit;
+  padding: 10px;
+  border: none;
+  
+  
+}
+.content{
+  position: relative;
+  top: -50px;
+  width: 100%;
+}
+.content img{
+  position: relative;
+  top: 10px;
+  left: 5px;
+  width: 40px;
+}
+input[type="email"],input[type="text"],input[type="password"]{
+  width: 80%;
+  border-radius: 20px;
+  padding: 15px;
+  background-color: antiquewhite;
+  border-bottom:2px solid #24262b;
+  margin:10px auto;
+  
+}
+.content p{
+  display: flex;
+  margin:10px 50px;
+  justify-content: space-between;
+}
+.content p a{
+text-decoration: none;
+color: inherit;
+background-color: white;
+border-radius: 10px;
+padding: 5px;
+
+transition: background-color 0.3s ease-in-out;
+
+}
+.content p a:hover{
+color: white;
+background-color: black;
+
+}
+input[type="submit"]{
+  width: 30%;
+  margin: 20px auto;
+  background-color: tomato;
+  border: white 2px solid;
+  border-radius: 10px;
+}
+input[type="submit"]{
+width: 30%;
+margin: 20px auto;
+background-color: tomato;
+border: white 2px solid;
+border-radius: 10px;
+transition: background-color 0.3s ease-in-out;
+}
+input[type="submit"]:hover{
+color: white;
+background-color: black
+
+}
+
+
+/* -----------------------------Footer----------------------- */
+
+/* -------------------------------Footer---------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&family=Poppins:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+body{
+ line-height: 1.5;
+ font-family: 'Poppins', sans-serif;
+}
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+.container{
+ max-width: 1170px;
+ margin: auto;
+}
+.row{
+ display: flex;
+ flex-wrap: wrap;
+}
+ul{
+ list-style: none;
+}
+.footer{
+ background-color: #24262b;
+ padding: 70px 0;
+}
+.footer-col{
+ width: 33%;
+ padding: 0 26px;
+}
+.footer-col h4{
+ font-size: 18px;
+ color: #ffffff;
+ text-transform: capitalize;
+ margin-bottom: 35px;
+ font-weight: 500;
+ position: relative;
+}
+.footer-col h4::before{
+ content: '';
+ position: absolute;
+ left: 0;
+ bottom: -10px;
+ background-color: #e91e63;
+ height: 2px;
+ box-sizing: border-box;
+ width: 50px;  
+}
+.footer-col ul li:not(:last-child){
+ margin-bottom: 10px;
+}
+.footer-col ul li a{
+ font-size: 16px;
+ text-transform: capitalize;
+ color: #ffffff;
+ text-decoration: none;
+ font-weight: 300;
+ color: #bbbbbb;
+ display: block;
+ transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+ color: #ffffff;
+ padding-left: 8px;
+}
+.footer-col .social-links a{
+ display: inline-block;
+ height: 40px;
+ width: 40px;
+ background-color: rgb(255,255,255,0.2);
+ margin: 0 10px 10px 0;
+ text-align: center;
+ line-height: 40px;
+ border-radius: 50%;
+ color: #ffffff;
+ transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+ color: #24262b;
+ background-color: #ffffff;
+}
+
+/*responsive*/
+@media(max-width: 767px){
+ .footer-col{
+   width: 50%;
+   margin-bottom: 30px;
+ }
+}
+@media(max-width: 574px){
+ .footer-col{
+   width: 100%;
+ }
+}
+
+ 

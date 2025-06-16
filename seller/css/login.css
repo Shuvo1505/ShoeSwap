@@ -1,0 +1,131 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  line-height: 1.5;
+  font-family: 'Poppins', sans-serif;
+  /* background-image: linear-gradient(to left top, #c17c0e, #cf6b16, #dc5626, #e53c38, #eb124d); */
+   background-image: url('../images/team_backgroudn.jpg') ;
+  background-repeat: no-repeat;
+  background-size: cover; 
+
+}
+/* body::before{
+  content: '';
+  background: url('../image/team_background') no-repeat center center/cover;
+  position: absolute;
+  width: 100%;
+  height: 522px;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  opacity: 0.99;
+} */
+
+
+
+/* --------------------------LOGIN-------------- */
+#login{
+  padding: 40px;
+}
+#login h1{
+  text-align: center;
+  font-size: 3em;
+  color: white;
+  margin-bottom: 100px;
+}
+.login-body{
+  border: white 2px solid;
+  border-radius: 20px;    
+  width: 470px;
+  height: fit-content;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.login-icon{
+  width: 200px;
+  position: relative;
+  top: -100px;
+  background-color: white;
+  border-radius: 50%;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+form input{ 
+  color: black;
+  font-size: large;
+  font-weight: bold;
+  width: 80%;
+  margin: 10px;
+  background-color: inherit;
+  padding: 10px;
+  border: none;
+  
+  
+}
+.content{
+  position: relative;
+  top: -50px;
+  width: 100%;
+}
+.content img{
+  position: relative;
+  top: 10px;
+  left: 5px;
+  width: 40px;
+}
+input[type="text"],input[type="password"]{
+  width: 80%;
+  border-radius: 20px;
+  padding: 15px;
+  background-color: antiquewhite;
+  border-bottom:2px solid #24262b;
+  margin:10px auto;
+  
+}
+.content p{
+  display: flex;
+  margin:10px 50px;
+  justify-content: space-between;
+}
+.content p a{
+  text-decoration: none;
+  color: inherit;
+  background-color: white;
+  border-radius: 10px;
+  padding: 5px;
+  
+  transition: background-color 0.3s ease-in-out;
+  
+}
+.content p a:hover{
+color: white;
+background-color: black;
+
+}
+input[type="submit"]{
+  width: 30%;
+  margin: 20px auto;
+  background-color: tomato;
+  border: white 2px solid;
+  border-radius: 10px;
+  transition: background-color 0.3s ease-in-out;
+}
+input[type="submit"]:hover{
+color: white;
+background-color: black
+
+}
+
+
+
+/* -----------------------------Footer----------------------- */

@@ -1,0 +1,221 @@
+.bg-gradient-nav{
+  /* background: -webkit-linear-gradient(to right, #cbad6d, #d53369);
+background: linear-gradient(to right, #cbad6d, #d53369); */
+background-color: #000;
+color: #ffffff;
+}
+crousel-h{
+  height: 200px;
+}
+a{
+  color:white;
+}
+/* -------------------------card-------------- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+/* body{
+  font-family: 'Poppins', sans-serif;
+  align-items: center;
+  min-height: 100vh;
+} */
+.product-inner-box .icons{
+  right: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  top: -3%;
+  transition: all 0.2s ease-in-out, transform 0.2s ease-in-out, opacity 0.2s ease-in-out;
+  opacity: 0;
+}
+.product-inner-box .icons a{
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background: #fff;
+}
+
+.product-inner-box .onsale .badge{
+  background: #000;
+  color: white;
+  font-size: 12px;
+  padding: 5px 14px;
+  top: 0px;
+  position: absolute;
+}
+.product-inner-box .onsale .badge:before{
+  border-width: 10px 0px 0px 10px;
+  border-color: transparent transparent transparent #000;
+  content: "";
+  position: absolute;
+  right: -8px;
+  width: 0;
+  bottom: 0;
+  border-style: solid;
+}
+
+.product-inner-box .onsale .badge:after{
+  border-width: 10px 8px 0px 10px;
+  border-color: #000 transparent transparent;
+  content: "";
+  position: absolute;
+  right: -8px;
+  width: 0;
+  top: 0;
+  border-style: solid;
+}
+#product_img{
+  box-shadow: 10px 33px 61px -29px rgb(0 0 0 /26%);
+  height: 149px;
+  width: 87%;
+  object-fit: cover;
+}
+
+.product-box.is-hover .icons{
+  transform: rotateY(-3%);
+  top: 3%;
+  opacity: 1;
+}
+.cart-btn{
+  position: absolute;
+  bottom: -120px;
+  text-align: center;
+  width: 169%;
+  opacity: 0;
+  transition: all 0.2s ease-in-out, transform 0.2s ease-in-out, opacity 0.2s ease-in-out;
+}
+.btn-light{
+  padding: 10px;
+  font-size: 10px;
+}
+.product-box.is-hover .cart-btn{
+  opacity: 10;
+  
+}
+
+.product-name h3{
+  font-size: 16px;
+  font-weight: 400;
+  
+
+}
+.product-box{
+/* border: 2px solid red; */
+    background-color: #c6c6ec;
+    border-radius: 22px;
+    padding: 20px;
+    box-shadow: 5px 3px 10px 1px black;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.info{
+margin: 10px;
+
+}
+.img-item{
+/* box-shadow: 1px 1px 10px 1px red; */
+height: 140px;
+width: 236px;
+}
+/* -------------------------card-------------- */
+
+ /* -------------------------------Footer---------------- */
+  
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&family=Poppins:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+ body{
+   line-height: 1.5;
+   font-family: 'Poppins', sans-serif;
+ }
+ *{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ }
+ .container{
+   max-width: 1170px;
+   margin: auto;
+ }
+ .row{
+   display: flex;
+   flex-wrap: wrap;
+ }
+ ul{
+   list-style: none;
+ }
+ .footer{
+   background-color: #24262b;
+   padding: 70px 0;
+ }
+ .footer-col{
+   width: 33%;
+   padding: 0 26px;
+ }
+ .footer-col h4{
+   font-size: 18px;
+   color: #ffffff;
+   text-transform: capitalize;
+   margin-bottom: 35px;
+   font-weight: 500;
+   position: relative;
+ }
+ .footer-col h4::before{
+   content: '';
+   position: absolute;
+   left: 0;
+   bottom: -10px;
+   background-color: #e91e63;
+   height: 2px;
+   box-sizing: border-box;
+   width: 50px;  
+ }
+ .footer-col ul li:not(:last-child){
+   margin-bottom: 10px;
+ }
+ .footer-col ul li a{
+   font-size: 16px;
+   text-transform: capitalize;
+   color: #ffffff;
+   text-decoration: none;
+   font-weight: 300;
+   color: #bbbbbb;
+   display: block;
+   transition: all 0.3s ease;
+ }
+ .footer-col ul li a:hover{
+   color: #ffffff;
+   padding-left: 8px;
+ }
+ .footer-col .social-links a{
+   display: inline-block;
+   height: 40px;
+   width: 40px;
+   background-color: rgb(255,255,255,0.2);
+   margin: 0 10px 10px 0;
+   text-align: center;
+   line-height: 40px;
+   border-radius: 50%;
+   color: #ffffff;
+   transition: all 0.5s ease;
+ }
+ .footer-col .social-links a:hover{
+   color: #24262b;
+   background-color: #ffffff;
+ }
+ 
+ /*responsive*/
+ @media(max-width: 767px){
+   .footer-col{
+     width: 50%;
+     margin-bottom: 30px;
+   }
+ }
+ @media(max-width: 574px){
+   .footer-col{
+     width: 100%;
+   }
+ }
+ 
+   
+  

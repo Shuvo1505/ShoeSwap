@@ -53,7 +53,7 @@
 # Screenshots
 ![login](https://github.com/user-attachments/assets/e1fd6435-f585-49cf-a89d-03e80ef0a7eb)
 ![authentication](https://github.com/user-attachments/assets/f7162bbd-e675-4b54-af8d-fa32b0895910)
-![home](https://github.com/user-attachments/assets/2f4a1d39-154b-4b32-b747-906eda12d40a)
+![home](https://github.com/user-attachments/assets/51f41237-b6c2-4108-b92b-aca896179b9e)
 ![category](https://github.com/user-attachments/assets/230a6f3f-8f0a-4647-aba1-c5643dacb76c)
 ![products](https://github.com/user-attachments/assets/3ecd1e64-3c3d-4a37-86a2-97add13a8ce8)
 ![cart](https://github.com/user-attachments/assets/8f609810-e265-4ad0-b3ce-658923a612cd)

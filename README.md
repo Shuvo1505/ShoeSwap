@@ -13,8 +13,8 @@
 
 # Required Software and Dependencies
 ```sh
-● Operating System: Windows 8/10/11 (If you are using any Linux-based operating system, you may need to modify
-  the codebase as necessary)
+● Operating System: Windows 8/10/11 (If you are using any Linux-based operating system,
+  you may need to modify the codebase as necessary)
 
 ● Front-End Tool: HTML, CSS, Bootstrap
 

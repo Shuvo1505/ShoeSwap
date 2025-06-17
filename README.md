@@ -43,12 +43,12 @@
 ● Storage: 100 MB or more (500 MB recommended)
 ```
 
-# Developers
-1. Anand Chowbey: [Checkout his Profile](https://github.com/Dev-Anand-007) <br><br>
-2. Purnendu Guha: [Checkout his Profile](https://github.com/Shuvo1505) <br><br>
-3. Riyanka Sarkar: [Checkout her Profile](https://github.com/riyankasarkar) <br><br>
-4. Sehenaj Sultana: [Checkout her Profile](https://github.com/sehenaj) <br><br>
-5. Ditsa Poddar: [Checkout her Profile](https://github.com/Ditsa11) <br><br>
+# Developers of ShoeSwap
+1. Anand Chowbey: [Checkout Profile](https://github.com/Dev-Anand-007) <br><br>
+2. Purnendu Guha: [Checkout Profile](https://github.com/Shuvo1505) <br><br>
+3. Riyanka Sarkar: [Checkout Profile](https://github.com/riyankasarkar) <br><br>
+4. Sehenaj Sultana: [Checkout Profile](https://github.com/sehenaj) <br><br>
+5. Ditsa Poddar: [Checkout Profile](https://github.com/Ditsa11) <br><br>
 
 # Screenshots
 ### Note: Images are for illustrative purposes only. Actual product may vary. <br><br>

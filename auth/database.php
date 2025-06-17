@@ -1,5 +1,5 @@
 <?php
-//Database credential
+//Database credential, You can modify according to your project
 $host="localhost";
 $username="root";
 $password="";

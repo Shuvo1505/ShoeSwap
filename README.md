@@ -51,7 +51,7 @@
 5. Ditsa Poddar: [Checkout her Profile](https://github.com/Ditsa11) <br><br>
 
 # Screenshots
-### Note: Images are for illustrative purposes only. Actual product may vary.
+### Note: Images are for illustrative purposes only. Actual product may vary. <br>
 ![login](https://github.com/user-attachments/assets/e1fd6435-f585-49cf-a89d-03e80ef0a7eb)
 ![authentication](https://github.com/user-attachments/assets/f7162bbd-e675-4b54-af8d-fa32b0895910)
 ![home](https://github.com/user-attachments/assets/51f41237-b6c2-4108-b92b-aca896179b9e)

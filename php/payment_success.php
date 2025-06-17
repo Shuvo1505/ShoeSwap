@@ -16,7 +16,7 @@ function sendOrderConfirmation($email){
             $mail->Host = 'smtp.gmail.com';
             $mail->SMTPAuth = true;
             $mail->Username = 'system.vacation.rental@gmail.com';
-            $mail->Password = 'aafiydmizxllcysy'; // App password
+            $mail->Password = ''; // App password
             $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
             $mail->Port = 587;
     

@@ -70,7 +70,7 @@
   ➡️ Users have the flexibility to add multiple addresses while placing an order on our website. This allows them to choose or manage different delivery locations as per their convenience. <br><br>
   
 # License
-```sh
+```
 MIT License
 
 Copyright (c) 2025 ShoeSwap team

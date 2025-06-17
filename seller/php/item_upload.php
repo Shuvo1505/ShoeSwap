@@ -57,9 +57,9 @@ if ($sell_price > $purchase_price){
     exit();
 }
 
-// Content moderation API credentials. Do not share with anyone outside our project team
-$api_user = '295579016';
-$api_secret = 'y5YjvVZEkueseLdsaBYjo5YuRJSbxEg9';
+// Content moderation API credentials. Replace with your own credentials
+$api_user = '';
+$api_secret = '';
 
 $allowedExtensions = ['jpg', 'jpeg', 'png'];
 $allowedMimeTypes = ['image/jpeg', 'image/png', 'image/jpg'];
